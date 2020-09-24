@@ -36,7 +36,7 @@
 -------------------------------------------------------------------*/
 body {
 	margin: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Poppins';font-size: 22px;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 24px;
@@ -1576,7 +1576,7 @@ span.ovrly_text2 {
 	height: 100%;
 	top: 0;
 	border-radius: 10px;
-	background-image: -moz-linear-gradient( 90deg, rgb(20, 24, 42) 0%, rgb(237, 63, 179) 0%, rgb(52, 62, 105) 0%, rgba(32, 167, 196, 0) 100%);
+	background-image: -moz-linear-gradient( 90deg, rgb(20, 24, 42) 0%, rgb(237, 63, 179) 0%, rgb(52, 62, 105) 0%, rgb(218,28,92) 100%);
 	background-image: -webkit-linear-gradient( 90deg, rgb(20, 24, 42) 0%, rgb(237, 63, 179) 0%, rgb(52, 62, 105) 0%, rgba(32, 167, 196, 0) 100%);
 	background-image: -ms-linear-gradient( 90deg, rgb(20, 24, 42) 0%, rgb(237, 63, 179) 0%, rgb(52, 62, 105) 0%, rgba(32, 167, 196, 0) 100%);
 	transition: all 0.4s ease-in-out;
@@ -1616,9 +1616,9 @@ span.ovrly_text2 {
 	top: 0;
 	left: 0;
 	z-index: -1;
-	background-image: -webkit-linear-gradient( -90deg, rgb(20, 24, 42) 0%, rgba(32, 167, 196, 0) 100%);
-	background-image: -moz-linear-gradient( -90deg, rgb(20, 24, 42) 0%, rgba(32, 167, 196, 0) 100%);
-	background-image: -ms-linear-gradient( -90deg, rgb(20, 24, 42) 0%, rgba(32, 167, 196, 0) 100%);
+	background-image: -webkit-linear-gradient( -90deg, rgb(86,12,51) 0%, rgb(86,12,51) 100%);
+	background-image: -moz-linear-gradient( -90deg, rgb(86,12,51) 0%, rgb(86,12,51) 100%);
+	background-image: -ms-linear-gradient( -90deg, rgb(86,12,51) 0%, rgb(86,12,51) 100%);
 	background-color: rgba(20, 24, 42, 0.3);
 }
 .ms_footer_inner {
@@ -2774,7 +2774,7 @@ a.ms_btn.play_btn.btn_pause span.play_all {
 .album_list_wrapper>ul>li {
 	display: inline-block;
 	width: 16%;
-	color: #2ec8e6;
+	color: #da1c5c;
 	position: relative;
 	text-transform: capitalize;
 	top: auto;
@@ -2787,7 +2787,7 @@ a.ms_btn.play_btn.btn_pause span.play_all {
 	position: relative;
 }
 .album_list_wrapper>ul:hover>li>a {
-	color: #2ec8e6;
+	color: #da1c5c;
 }
 ul.album_list_name {
 	position: relative;
@@ -2803,10 +2803,10 @@ ul.album_list_name:after {
 	border: 0;
 	height: 1px;
 	background: rgba(59, 200, 231, 0.61);
-	background-image: -webkit-linear-gradient(left, rgba(59, 200, 231, 0.71), #3bc8e7db, rgba(22, 26, 45, 0.8));
-	background-image: -moz-linear-gradient(left, #252b4d, #252b4d, #161a2d);
-	background-image: -ms-linear-gradient(left, #252b4d, #252b4d, #161a2d);
-	background-image: -o-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+	background-image: -webkit-linear-gradient(left, rgb(218,28,92), #da1c5c, rgb(218,28,92));
+	background-image: -moz-linear-gradient(left, #da1c5c, #da1c5c, #da1c5c);
+	background-image: -ms-linear-gradient(left, #da1c5c, #da1c5c, #da1c5c);
+	background-image: -o-linear-gradient(left, #da1c5c, #da1c5c, #da1c5c);
 }
 .ms_icon1 {
 	background: url(../images/svg/play_icon.svg);
