@@ -1,28 +1,15 @@
 <!DOCTYPE html>
-<!-- 
-Template Name: Miraculous - Online Music Store Html Template
-Version: 1.0.0
-Author: Kamleshyadav
-Website: 
-Purchase: 
--->
-<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
-<!--[if !IE]><!-->
 <html lang="en">
-<!--<![endif]-->
-<!-- Begin Head -->
-
 <head>
-    <title>Miraculous - Online Music Store Html Template</title>
+    <title>TunesBid |  </title>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta name="description" content="Music">
     <meta name="keywords" content="">
-    <meta name="author" content="kamleshyadav">
+    <meta name="author" content="">
     <meta name="MobileOptimized" content="320">
     <!--Start Style -->
-    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="js/plugins/swiper/css/swiper.min.css">
@@ -31,10 +18,16 @@ Purchase:
 	<link rel="stylesheet" type="text/css" href="js/plugins/scroll/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Favicon Link -->
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
 </head>
 
 <body>
+	<!----Loader Start---->
+	<div class="ms_loader">
+		<div class="wrap">
+		  <img src="images/loader.gif" alt="">
+		</div>
+	</div>
     <!----Main Wrapper Start---->
     <div class="ms_main_wrapper">
         <!---Side Menu Start--->
@@ -45,10 +38,10 @@ Purchase:
             <div class="ms_sidemenu_inner">
                 <div class="ms_logo_inner">
                     <div class="ms_logo">
-                        <a href="index.html"><img src="images/logo.png" alt="" class="img-fluid"/></a>
+                        <a href="index.html"><img src="images/nav_logo.png" width="50px" alt="Logo" class="img-fluid"/></a>
                     </div>
                     <div class="ms_logo_open">
-                        <a href="index.html"><img src="images/open_logo.png" alt="" class="img-fluid"/></a>
+                        <a href="index.html"><img src="images/logo_large.png"  height="50px" width="150px" alt="Logo" class="img-fluid"/></a>
                     </div>
                 </div>
                 <div class="ms_nav_wrapper">
@@ -58,67 +51,94 @@ Purchase:
 							<span class="icon icon_discover"></span>
 						</span>
 						<span class="nav_text">
-							discover
+							Discover
 						</span>
 						</a>
                         </li>
-                        <li><a href="album.html" title="Albums">
+                        <li><a href="topbid.html" title="Albums">
 						<span class="nav_icon">
 							<span class="icon icon_albums"></span>
 						</span>
 						<span class="nav_text">
-							albums
+							Top Bid
 						</span>
 						</a>
                         </li>
-                        <li><a href="artist.html" title="Artists">
+                        <li><a href="producers.html" title="Artists">
 						<span class="nav_icon">
 							<span class="icon icon_artists"></span>
-						</span>
+						</span>  
 						<span class="nav_text">
-							artists
+							Producers
 						</span>
 						</a>
                         </li>
-                        <li><a href="genres.html" title="Genres">
+                        <li><a href="genres" title="Genres">
 						<span class="nav_icon">
 							<span class="icon icon_genres"></span>
 						</span>
 						<span class="nav_text">
-							genres
+							Genres
 						</span>
 						</a>
                         </li>
-                        <li><a href="top_track.html" title="Top Tracks">
+                        <li><a href="topbeats.html" title="Top Tracks">
 						<span class="nav_icon">
 							<span class="icon icon_tracks"></span>
 						</span>
 						<span class="nav_text">
-							top tracks
+							Top Beats
 						</span>
 						</a>
                         </li>
-                        <li><a href="free_music.html" title="Free Music">
+                        <li><a href="toprecording.html" title="Top Tracks">
+                        <span class="nav_icon">
+                            <span class="icon icon_tracks"></span>
+                        </span>
+                        <span class="nav_text">
+                            Top Recording
+                        </span>
+                        </a>
+                        </li>
+                        <li><a href="freemusic.html" title="Free Music">
 						<span class="nav_icon">
 							<span class="icon icon_music"></span>
 						</span>
 						<span class="nav_text">
-							free music
+							Free Music
 						</span>
 						</a>
                         </li>
-                        <li><a href="stations.html" title="Stations">
+                        <li><a href="topsongwriter.html" title="Artists">
+                        <span class="nav_icon">
+                            <span class="icon icon_artists"></span>
+                        </span>
+                        <span class="nav_text">
+                            Song Writers
+                        </span>
+                        </a>
+                        </li>
+                        <li><a href="event.html" title="Stations">
 						<span class="nav_icon">
 							<span class="icon icon_station"></span>
 						</span>
 						<span class="nav_text">
-							stations
+							Events
 						</span>
 						</a>
                         </li>
+                        <li><a href="#"  title="Discover">
+                        <span class="nav_icon">
+                            <span class="icon icon_discover"></span>
+                        </span>
+                        <span class="nav_text">
+                            Tune Store
+                        </span>
+                        </a>
+                        </li>
                     </ul>
                     <ul class="nav_downloads">
-                        <li><a href="download.html" title="Downloads">
+                <!-- <li><a href="download.html" title="Downloads">
 						<span class="nav_icon">
 							<span class="icon icon_download"></span>
 						</span>
@@ -126,51 +146,97 @@ Purchase:
 							downloads
 						</span>
 						</a>
-                        </li>
-                        <li><a href="purchase.html" title="Purchased">
+                        </li> -->
+                        <li><a href="#" title="Purchased">
 						<span class="nav_icon">
 							<span class="icon icon_purchased"></span>
 						</span>
 						<span class="nav_text">
-							purchased
+							Wishlist
 						</span>
 						</a>
                         </li>
-                        <li><a href="favourite.html" title="Favourites">
+
+                        <li><a href="#" title="Purchased">
+                        <span class="nav_icon">
+                            <span class="icon icon_purchased"></span>
+                        </span>
+                        <span class="nav_text">
+                            Purchased
+                        </span>
+                        </a>
+                        </li>
+                        <li><a href="#" title="Favourites">
 						<span class="nav_icon">
 							<span class="icon icon_favourite"></span>
 						</span>
 						<span class="nav_text">
-							favourites
+							Favourites
 						</span>
 						</a>
                         </li>
-                        <li><a href="history.html" title="History">
+                        <li><a href="#" title="History">
 						<span class="nav_icon">
 							<span class="icon icon_history"></span>
 						</span>
 						<span class="nav_text">
-							history
+							Bid History
 						</span>
 						</a>
                         </li>
+                        <li><a href="#" title="Favourites">
+                        <span class="nav_icon">
+                            <span class="icon icon_favourite"></span>
+                        </span>
+                        <span class="nav_text">
+                            Profile
+                        </span>
+                        </a>
+                        </li>
                     </ul>
                     <ul class="nav_playlist">
-                        <li><a href="feature_playlist.html" title="Featured Playlist">
+                        <li><a href="#" title="Featured Playlist">
 						<span class="nav_icon">
 							<span class="icon icon_fe_playlist"></span>
 						</span>
 						<span class="nav_text">
-							featured playlist
+							Wallet
 						</span>
 						</a>
                         </li>
-                        <li><a href="add_playlist.html" title="Create Playlist">
+                         <li><a href="#" title="Featured Playlist">
+                        <span class="nav_icon">
+                            <span class="icon icon_fe_playlist"></span>
+                        </span>
+                        <span class="nav_text">
+                            Upload
+                        </span>
+                        </a>
+                        </li>
+                         <li><a href="#" title="Featured Playlist">
+                        <span class="nav_icon">
+                            <span class="icon icon_fe_playlist"></span>
+                        </span>
+                        <span class="nav_text">
+                            Media
+                        </span>
+                        </a>
+                        </li>
+                         <li><a href="#" title="Featured Playlist">
+                        <span class="nav_icon">
+                            <span class="icon icon_fe_playlist"></span>
+                        </span>
+                        <span class="nav_text">
+                            Sales
+                        </span>
+                        </a>
+                        </li>
+                        <li><a href="#" title="Create Playlist">
 						<span class="nav_icon">
 							<span class="icon icon_c_playlist"></span>
 						</span>
 						<span class="nav_text">
-							create playlist
+							Bids
 						</span>
 						</a>
                         </li>
@@ -180,6 +246,7 @@ Purchase:
         </div>
         <!---Main Content Start--->
         <div class="ms_content_wrapper padder_top80">
+            <br>
             <!---Header--->
             <div class="ms_header">
                 <div class="ms_top_left">
@@ -190,335 +257,202 @@ Purchase:
 						</span>
                     </div>
                     <div class="ms_top_trend">
-                        <span><a href="#"  class="ms_color">Trending Songs :</a></span> <span class="top_marquee"><a href="#">Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley (+8 More)</a></span>
+                        <a href="javascript:;" style="background-color: #880E4F;" class="ms_btn login_btn" data-toggle="modal" data-target="#myModal1"><span>Lamlight</span>&nbsp;<span class="badge badge-pill badge-danger badge-up">5</span></a>
+                        <!-- <span><a href="#"  class="ms_color">Top Bid :</a></span> <span class="top_marquee"><a href="#">Dream your moments, Until I Met You, Gimme Some Courage, Dark Alley (+8 More)</a></span> -->
                     </div>
                 </div>
                 <div class="ms_top_right">
-                    <div class="ms_top_lang">
+                    <div class="ms_top_lang" hidden="">
                         <span data-toggle="modal" data-target="#lang_modal">languages <img src="images/svg/lang.svg" alt=""></span>
                     </div>
                     <div class="ms_top_btn">
-						<a href="javascript:;" class="ms_btn reg_btn" data-toggle="modal" data-target="#myModal"><span>register</span></a>
-						<a href="javascript:;" class="ms_btn login_btn" data-toggle="modal" data-target="#myModal1"><span>login</span></a>
-					</div>
+                        <a href="javascript:;" style="background-color: #880E4F;" class="ms_btn reg_btn" data-toggle="modal" data-target="#myModal"><span> Sign Up</span></a>  
+                        <a href="javascript:;" style="background-color: #da1c5c" class="ms_btn login_btn" data-toggle="modal" data-target="#myModal1"><span>Sign In</span></a>&nbsp;&nbsp; <span style="color:pink">|</span> &nbsp;&nbsp;
+                        <a href="javascript:;"  data-toggle="modal" data-target="#myModal1"><span style="font-size:25px; color: white;" ><i class="fa fa-shopping-cart" aria-hidden="true" fa-7x></i></span></a>
+
+                        <!-- <a href="javascript:;" class="btn btn-block btn-primary btn-flat"  style="width: 60px" data-toggle="modal" data-target="#myModal1"><span style="font-size: 15px;color: white"><i class="fa fa-shopping-cart fa-10x"></i></span></a>
+                        <a href="javascript:;" class="btn btn-block btn-primary btn-flat"  style="width: 60px" data-toggle="modal" data-target="#myModal1"><span style="font-size: 15px;color: white"><i class="fa fa-shopping-cart fa-10x"></i></span></a>
+                        <a href="javascript:;" class="btn btn-block btn-primary btn-flat"  style="width: 60px" data-toggle="modal" data-target="#myModal1"><span style="font-size: 15px;color: white"><i class="fa fa-shopping-cart fa-10x"></i></span></a> -->
+                    </div>
                 </div>
             </div>
-			<!--- blog section start --->
-			<div class="ms_blog_wrapper">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="ms_blog_section blog_active marger_bottom30">
-							<div class="ms_blog_img">
-								<img src="images/blog/blog1.jpg" alt="" class="img-fluid">
-							</div>
-							<div class="ms_main_overlay">
-								<div class="ms_box_overlay"></div>
-								<div class="ovrly_text_div">
-									<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-									<div class="bottom">
-										<span class="ovrly_text1">May 12,2018</span>
-										<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-									</div>
-								</div>
-							</div>
-							<div class="ms_box_overlay_on">
-								<div class="ovrly_text_div">
-									<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">
-						<div class="row">
-							<div class="col-lg-6">
-								<div class="ms_blog_section marger_bottom30">
-									<div class="ms_blog_img">
-										<img src="images/blog/blog2.jpg" alt="" class="img-fluid">
-									</div>
-									<div class="ms_main_overlay">
-										<div class="ms_box_overlay"></div>
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-											<div class="bottom">
-												<span class="ovrly_text1">May 12,2018</span>
-												<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-											</div>
-										</div>
-									</div>
-									<div class="ms_box_overlay_on">
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="ms_blog_section marger_bottom30">
-									<div class="ms_blog_img">
-										<img src="images/blog/blog3.jpg" alt="" class="img-fluid">
-									</div>
-									<div class="ms_main_overlay">
-										<div class="ms_box_overlay"></div>
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-											<div class="bottom">
-												<span class="ovrly_text1">May 12,2018</span>
-												<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-											</div>
-										</div>
-									</div>
-									<div class="ms_box_overlay_on">
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="ms_blog_section marger_bottom30">
-									<div class="ms_blog_img">
-										<img src="images/blog/blog4.jpg" alt="" class="img-fluid">
-									</div>
-									<div class="ms_main_overlay">
-										<div class="ms_box_overlay"></div>
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-											<div class="bottom">
-												<span class="ovrly_text1">May 12,2018</span>
-												<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-											</div>
-										</div>
-									</div>
-									<div class="ms_box_overlay_on">
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="ms_blog_section marger_bottom30">
-									<div class="ms_blog_img">
-										<img src="images/blog/blog5.jpg" alt="" class="img-fluid">
-									</div>
-									<div class="ms_main_overlay">
-										<div class="ms_box_overlay"></div>
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-											<div class="bottom">
-												<span class="ovrly_text1">May 12,2018</span>
-												<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-											</div>
-										</div>
-									</div>
-									<div class="ms_box_overlay_on">
-										<div class="ovrly_text_div">
-											<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6">	
-					<div class="row">
-						<div class="col-lg-5">
-							<div class="ms_blog_section marger_bottom30">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog6.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="ms_blog_section marger_bottom30">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog8.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="ms_blog_section">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog10.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">
-							<div class="ms_blog_section">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog9.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					</div>	
-					<div class="col-lg-6">	
-					<div class="row">
-						<div class="col-lg-5">
-							<div class="ms_blog_section marger_bottom30">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog7.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="ms_blog_section marger_bottom30">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog11.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-7">
-							<div class="ms_blog_section">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog12.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5">						
-							<div class="ms_blog_section">
-								<div class="ms_blog_img">
-									<img src="images/blog/blog13.jpg" alt="" class="img-fluid">
-								</div>
-								<div class="ms_main_overlay">
-									<div class="ms_box_overlay"></div>
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="blog_single.html">Fenne Lily - Three Oh Nine</a></span>
-										<div class="bottom">
-											<span class="ovrly_text1">May 12,2018</span>
-											<span class="ovrly_text2"><a href="blog_single.html"><i class="fa fa-long-arrow-right"></i></a></span>
-										</div>
-									</div>
-								</div>
-								<div class="ms_box_overlay_on">
-									<div class="ovrly_text_div">
-										<span class="ovrly_text1"><a href="#">Fenne Lily - Three Oh Nine</a></span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					</div>	
-				</div>
-			</div>
-			<!--- blog section end --->
-		</div>
-		
+        <!---Producers--->
+            <div class="ms_top_artist">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="ms_heading">
+                                <h1>Top Song Writers</h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <div class="ms_rcnt_box marger_bottom30">
+                                <div class="ms_rcnt_box_img">
+                                    <img src="images/writer.png" alt="" class="img-fluid">
+                                    <div class="ms_main_overlay">
+                                        <div class="ms_box_overlay"></div>
+                                        
+                                    </div>
+                                    <span class="ms_frequency"></span>
+                                </div>
+                                <div class="ms_rcnt_box_text">
+                                    <h3><a href="#">Peter Wills</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+
+
+            <!----Main div close---->
+        </div>
         <!----Footer Start---->
         <div class="ms_footer_wrapper">
             <div class="ms_footer_logo">
-                <a href="index.html"><img src="images/open_logo.png" alt=""></a>
+                <a href="index.html"><img src="images/logo_large.png" height="70px" alt="Logo"></a>
             </div>
             <div class="ms_footer_inner">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer_box">
-                            <h1 class="footer_title">miraculous music stations</h1>
+                            <h1 class="footer_title">Tunes Bid store</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute irure dolor.</p>
                         </div>
                     </div>
@@ -528,7 +462,6 @@ Purchase:
                             <p>Go Mobile with our app.<br> Listen to your favourite songs at just one click. Download Now !</p>
                             <a href="#" class="foo_app_btn"><img src="images/google_play.jpg" alt="" class="img-fluid"></a>
                             <a href="#" class="foo_app_btn"><img src="images/app_store.jpg" alt="" class="img-fluid"></a>
-                            <a href="#" class="foo_app_btn"><img src="images/windows.jpg" alt="" class="img-fluid"></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -576,7 +509,7 @@ Purchase:
                                     </div>
                                     <div class="foo_con_data">
                                         <span class="con-title">walk in :</span>
-                                        <span>598 Old House Drive, London</span>
+                                        <span>598 Old Lagos, London</span>
                                     </div>
                                 </li>
                             </ul>
@@ -597,7 +530,7 @@ Purchase:
             <div class="col-lg-12">
                 <div class="ms_copyright">
                     <div class="footer_border"></div>
-                    <p>Copyright &copy; 2018 <a href="#">The Miraculous Music Template</a>. All Rights Reserved.</p>
+                    <p>Copyright &copy; 2020 <a href="#" style="color: #da1c5c">TunesBid</a>. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -687,6 +620,7 @@ Purchase:
                                                     </div>
                                                 </div>
                                             </div>
+                                            <!-- <input></input> -->
                                         </div>
                                     </div>
                                 </div>
@@ -951,6 +885,66 @@ Purchase:
     <!--Main js file Style-->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+        var TxtRotate = function(el, toRotate, period) {
+          this.toRotate = toRotate;
+          this.el = el;
+          this.loopNum = 0;
+          this.period = parseInt(period, 10) || 2000;
+          this.txt = '';
+          this.tick();
+          this.isDeleting = false;
+        };
+
+        TxtRotate.prototype.tick = function() {
+          var i = this.loopNum % this.toRotate.length;
+          var fullTxt = this.toRotate[i];
+
+          if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+          } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+          }
+
+          this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+          var that = this;
+          var delta = 300 - Math.random() * 100;
+
+          if (this.isDeleting) { delta /= 2; }
+
+          if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+          } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+          }
+
+          setTimeout(function() {
+            that.tick();
+          }, delta);
+        };
+
+        window.onload = function() {
+          var elements = document.getElementsByClassName('txt-rotate');
+          for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-rotate');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtRotate(elements[i], JSON.parse(toRotate), period);
+            }
+          }
+          // INJECT CSS
+          var css = document.createElement("style");
+          css.type = "text/css";
+          css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+          document.body.appendChild(css);
+        };
+
+
+    </script>
     <script type="text/javascript" src="js/plugins/swiper/js/swiper.min.js"></script>
     <script type="text/javascript" src="js/plugins/player/jplayer.playlist.min.js"></script>
     <script type="text/javascript" src="js/plugins/player/jquery.jplayer.min.js"></script>
@@ -960,4 +954,5 @@ Purchase:
 	<script type="text/javascript" src="js/plugins/scroll/jquery.mCustomScrollbar.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
 </body>
+
 </html>
