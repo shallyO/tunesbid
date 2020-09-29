@@ -36,8 +36,8 @@
 -------------------------------------------------------------------*/
 body {
 	margin: 0;
-	font-family: 'Poppins';font-size: 22px;
-	font-size: 16px;
+	font-family: 'Lato';
+	font-size: 20px;
 	font-weight: 400;
 	line-height: 24px;
 	color: #777777;
@@ -3122,9 +3122,9 @@ span.ms_frequency {
 	background-color: transparent;
 	border: none;
 	border-radius: 10px;
-	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -webkit-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -ms-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
+	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(218,28,92) 0%, rgb(218,28,92) 100%);
+	background-image: -webkit-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(218,28,92) 0%, rgb(218,28,92) 100%);
+	background-image: -ms-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(218,28,92) 0%, rgb(218,28,92) 100%);
 }
 .modal {
 	overflow: hidden;
@@ -3699,7 +3699,7 @@ ul.pro_dropdown_menu li a:hover {
 	border-radius: 100%;
 	top: -417px;
 	right: -215px;
-	background-color: #2ec8e6;
+	background-color: #ea598a;
 	box-shadow: inset 0px 3px 17px 0px rgba(0, 0, 0, 0.35);
 }
 .ms_plan_img {
@@ -3713,7 +3713,7 @@ ul.pro_dropdown_menu li a:hover {
 }
 .ms_plan_box h3.plan_heading {
 	font-size: 22px;
-	color: #202020;
+	color: #ea598a;
 	padding-bottom: 7px;
 	position: relative;
 	display: inline-block;
@@ -3733,21 +3733,21 @@ ul.pro_dropdown_menu li a:hover {
 	-moz-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
-	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #202020, rgba(255, 42, 112, 0) 60%);
-	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #202020, rgba(255, 42, 112, 0) 60%);
-	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #202020, rgba(255, 42, 112, 0) 60%);
-	background: -o-radial-gradient(50% 50%, ellipse closest-side, #202020, rgba(255, 42, 112, 0) 60%);
+	background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #ea598a, rgba(255, 42, 112, 0) 60%);
+	background: -moz-radial-gradient(50% 50%, ellipse closest-side, #ea598a, rgba(255, 42, 112, 0) 60%);
+	background: -ms-radial-gradient(50% 50%, ellipse closest-side, #ea598a, rgba(255, 42, 112, 0) 60%);
+	background: -o-radial-gradient(50% 50%, ellipse closest-side, #ea598a, rgba(255, 42, 112, 0) 60%);
 }
 .plan_dolar {
 	width: 89px;
 	height: 89px;
 	display: inline-block;
-	border: 2px solid #3bc8e7;
+	border: 2px solid #ea598a;
 	line-height: 99px;
 	font-size: 40px;
 	border-radius: 100%;
 	font-weight: 600;
-	color: #3bc8e7;
+	color: #ea598a;
 	position: relative;
 	background-color: #fff;
 	z-index: 1;
@@ -3770,10 +3770,10 @@ ul.pro_dropdown_menu li a:hover {
 	top: 50%;
 	right: 8px;
 	z-index: 0;
-	background-image: -webkit-linear-gradient(left, #3bc8e7, #3bc8e7, #fff);
-	background-image: -moz-linear-gradient(left, #3bc8e7, #3bc8e7, #fff);
-	background-image: -ms-linear-gradient(left, #3bc8e7, #3bc8e7, #fff);
-	background-image: -o-linear-gradient(left, #3bc8e7, #3bc8e7, #fff);
+	background-image: -webkit-linear-gradient(left, #ea598a, #ea598a, #fff);
+	background-image: -moz-linear-gradient(left, #ea598a, #ea598a, #fff);
+	background-image: -ms-linear-gradient(left, #ea598a, #ea598a, #fff);
+	background-image: -o-linear-gradient(left, #ea598a, #ea598a, #fff);
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
@@ -3782,10 +3782,10 @@ ul.pro_dropdown_menu li a:hover {
 }
 .plan_price:before {
 	left: 8px;
-	background-image: -webkit-linear-gradient(right, #3bc8e7, #3bc8e7, #fff);
-	background-image: -moz-linear-gradient(right, #3bc8e7, #3bc8e7, #fff);
-	background-image: -ms-linear-gradient(right, #3bc8e7, #3bc8e7, #fff);
-	background-image: -o-linear-gradient(right, #3bc8e7, #3bc8e7, #fff);
+	background-image: -webkit-linear-gradient(right, #ea598a, #ea598a, #fff);
+	background-image: -moz-linear-gradient(right, #ea598a, #ea598a, #fff);
+	background-image: -ms-linear-gradient(right, #ea598a, #ea598a, #fff);
+	background-image: -o-linear-gradient(right, #ea598a, #ea598a, #fff);
 }
 .ms_plan_box ul {
 	padding: 0px;
@@ -3793,7 +3793,7 @@ ul.pro_dropdown_menu li a:hover {
 	list-style: none;
 }
 .ms_plan_box ul li {
-	color: #777;
+	color: #ea598a;
 	font-weight: 600;
 	font-size: 18px;
 	margin-bottom: 10px;
