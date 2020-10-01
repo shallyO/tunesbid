@@ -2855,6 +2855,8 @@ ul.play_active_song .ms_icon1.ms_active_icon {
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
+
+	 filter: rgb(218,28,92);
 }
 .play_no {
 	transition: all 0.3s ease-in-out;
@@ -3044,7 +3046,7 @@ span.ms_frequency {
 .ms_free_download .album_list_wrapper .ms_close {
 	width: 20px;
 	height: 20px;
-	background-color: #2ec8e6;
+	background-color: #da1c5c;
 	display: inline-block;
 	line-height: 20px;
 	border-radius: 100%;
