@@ -66,7 +66,7 @@ h6,
    background-image: url("images/landing_banner.jpg");
 }
 a {
-	color: #3bc8e7;
+	color: rgb(218,28,92);
 	transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
@@ -2856,10 +2856,10 @@ ul.play_active_song .ms_icon1.ms_active_icon {
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 
-	 filter: rgb(218,28,92);
+	 filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
 }
 .play_no {
-	transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;v
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -3495,7 +3495,7 @@ button.save_btn:hover {
 	color: #3bc8e7;
 }
 .ms_admin_name:hover:after {
-	border-top: 4px solid #3bc8e7;
+	border-top: 4px solid rgb(218,28,92);
 }
 .ms_admin_name:before {
 	position: absolute;
@@ -3527,9 +3527,9 @@ button.save_btn:hover {
 	margin-left: 10px;
 	position: relative;
 	top: -3px;
-	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -webkit-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
-	background-image: -ms-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(59, 200, 231) 0%, rgb(32, 167, 196) 100%);
+	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(218,28,92) 0%, rgb(218,28,92) 100%);
+	background-image: -webkit-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(218,28,92) 0%, rgb(218,28,92) 100%);
+	background-image: -ms-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(218,28,92) 0%, rgb(218,28,92) 100%);
 }
 .ms_admin_name img {
 	width: 50px;
@@ -3631,7 +3631,7 @@ ul.pro_dropdown_menu {
 	max-width: 150px;
 	width: 100%;
 	right: 0;
-	top: 157%;
+	top: 100%;
 	position: absolute;
 	padding: 0px;
 	list-style: none;
