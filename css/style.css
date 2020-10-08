@@ -691,7 +691,7 @@ span.nav_text {
 }
 .ms_header {
 	position: fixed;
-	background-color: #560C33;
+	background-color: #220115;
 	padding: 20px 50px;
 	right: 0;
 	left: 80px;
@@ -1601,7 +1601,7 @@ span.ovrly_text2 {
 /*====Footer Css Start====*/
 .ms_footer_wrapper {
 	/*background-image: url(../images/footer_bg.png);*/
-	background-color: #560c33;
+	background-color: #220115;
 	background-size: cover;
 	position: relative;
 	z-index: 1;
