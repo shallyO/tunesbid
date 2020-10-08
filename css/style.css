@@ -448,7 +448,7 @@ body.loaded .ms_loader {
 }
 .ms_nav_wrapper ul li a:hover:after,
 .ms_nav_wrapper ul li a.active:after {
-	background-color: #560c33;
+	background-color: #220115;
 }
 .ms_nav_wrapper ul li a:hover span.nav_icon>.icon,
 .ms_nav_wrapper ul li a.active span.nav_icon>.icon {
@@ -620,7 +620,7 @@ span.nav_text {
 	position: absolute;
 	right: -24px;
 	top: 50%;
-	background-color: #560c33;
+	background-color: #220115;
 	border-radius: 100%;
 	cursor: pointer;
 	transform: translateY(-50%);
@@ -1841,7 +1841,7 @@ h1.footer_title:after {
 	position: absolute;
 	top: -26px;
 	right: 8px;
-	background-color: #560c33;
+	background-color: #220115;
 	width: 55px;
 	height: 27px;
 	text-align: center;
