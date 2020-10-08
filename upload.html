@@ -19,6 +19,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Favicon Link -->
       <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+      <style type="text/css">
+          .txtnow{
+            color:white;
+          }
+      </style>
 </head>
 <body>
     <!----Loader---->
@@ -286,36 +291,29 @@
         <!----Album Single Section Start---->
       
             <div class="ms_upload_wrapper marger_top60">
-                <div class="ms_upload_box">
-                    <h2>Upload &amp; Sell Your Music With The World</h2>
-                    <img src="images/svg/upload.svg" alt="">
-                    <div class="ms_upload_btn">
-                        <a href="#" class="ms_btn">Open files</a>
-                    </div>
-                    <span> or </span>
-                    <p>Drag And Drop Music Files</p>
-                </div>
                 <div class=" marger_top60">
-                    <div class="ms_upload_box">
-                        <div class="ms_heading">
-                            <h1>Track Information</h1>
+                    <div class="ms_upload_box" style="background-color: #da1c5c;">
+                        <div class="ms_heading txtnow">
+                            <h1 class="txtnow">Track Information</h1>
                         </div>
                         <div class="ms_pro_form">
                             <div class="form-group">
-                                <label>Track Name *</label>
+                                <label style="color:white;">Track Name *</label>
                                 <input type="text" placeholder="Enter Song Name" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label>Track Info *</label>
-                                <input type="text" placeholder="Enter Artist Name" class="form-control">
+                                <label style="color:white;">Track Producer *</label>
+                                <input type="text" placeholder="Enter Track Producer" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label>Price *</label>
-                                <input type="Number" placeholder="Enter Price" class="form-control">
+                                <label style="color:white;">Select Track Type</label>
+                                <select class="form-control">
+                                <option>Beat</option>
+                                <option value="Bid">Recording</option>
+                            </select>
                             </div>
-                            
                             <div class="form-group">
-                                <label>Select Gerne</label>
+                                <label style="color:white;">Select Gerne</label>
                                 <select class="form-control">
                                 <option>Afro</option>
                                 <option value="Bid">Pop</option>
@@ -323,17 +321,37 @@
                             </select>
                             </div>
                             <div class="form-group">
-                                <label>Bid End Date *</label>
+                                <label style="color:white;">Start Price *</label>
+                                <input type="Number" placeholder="Enter Start Price" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="color:white;">Buy Now Price *</label>
+                                <input type="Number" placeholder="Enter Buy Now Price" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="color:white;">Media Snippet *</label>
+                                <input type="file" placeholder="Enter Media Snippet" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="color:white;">Zipped Snippet *</label>
+                                <input type="file" placeholder="Enter Zipped Snippet" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="color:white;">Read Me File *</label>
+                                <input type="file" placeholder="Enter Zipped Snippet" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label style="color:white;">Bid End Date *</label>
                                 <input type="date" placeholder="Enter End Date" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label>Track Artwork *</label>
+                                <label style="color:white;">Track Artwork *</label>
                                 <input type="file" placeholder="Enter Artist Name" class="form-control">
                             </div>
                             <div class="pro-form-btn text-center marger_top15">
                                 <div class="ms_upload_btn">
-                                    <a href="#" class="ms_btn">Upload</a>
-                                    <a href="#" class="ms_btn">cancel</a>
+                                    <a href="#" class="ms_btn" style="color:#da1c5c; background-color: white;">Upload</a>
+                                    <a href="#" class="ms_btn" style="color:#da1c5c; background-color: white;">cancel</a>
                                 </div>
                             </div>
                         </div>

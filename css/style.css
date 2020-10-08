@@ -41,7 +41,7 @@ body {
 	font-weight: 400;
 	line-height: 24px;
 	color: #777777;
-	background-color: #340920;
+	background-color: #18000E;
 }
 /*====Normal Css Start====*/
 h1,
@@ -3675,7 +3675,7 @@ ul.pro_dropdown_menu li a:hover {
 }
 /*====Plans Css Start====*/
 .ms_plan_box {
-	background-color: #fff;
+	background-color: #da1c5c;
 	border-radius: 15px;
 	padding-bottom: 50px;
 	transition: all 0.5s ease-in-out;
@@ -3684,6 +3684,7 @@ ul.pro_dropdown_menu li a:hover {
 	-ms-transition: all 0.5s ease-in-out;
 	overflow: hidden;
 	position: relative;
+	color:white;
 }
 .ms_plan_box .ms_plan_header {
 	padding: 40px 0px 50px;
