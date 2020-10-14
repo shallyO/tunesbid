@@ -3128,6 +3128,15 @@ span.ms_frequency {
 	background-image: -webkit-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(218,28,92) 0%, rgb(218,28,92) 100%);
 	background-image: -ms-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(218,28,92) 0%, rgb(218,28,92) 100%);
 }
+.modal-content1 {
+	padding: 50px 50px 46px;
+	background-color: transparent;
+	border: none;
+	border-radius: 10px;
+	background-image: -moz-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(24,0,14) 0%, rgb(24,0,14) 100%);
+	background-image: -webkit-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(24,0,14) 0%, rgb(24,0,14) 100%);
+	background-image: -ms-linear-gradient( 180deg, rgb(22, 26, 46) 0%, rgb(237, 63, 179) 0%, rgb(24,0,14) 0%, rgb(24,0,14) 100%);
+}
 .modal {
 	overflow: hidden;
 }
@@ -3157,7 +3166,6 @@ span.ms_frequency {
 	width: calc(100% - 368px);
 	float: left;
 	padding-left: 50px;
-	text-align: center;
 }
 .modal-dialog.login_dialog .modal-content .ms_register_form {
 	padding-top: 25px;

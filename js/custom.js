@@ -49,6 +49,9 @@ Assigned to: Theme Forest
             $(".ms_admin_name").on('click', function() {
                 $(".pro_dropdown_menu").toggleClass("open_dropdown");
             });
+            $(".ms_admin_name1").on('click', function() {
+                $(".pro_dropdown_menu1").toggleClass("open_dropdown");
+            });
         },
         // Player Close On Click
         Player_close: function() {

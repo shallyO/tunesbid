@@ -17,6 +17,136 @@
     <link rel="stylesheet" type="text/css" href="js/plugins/player/volume.css">
     <link rel="stylesheet" type="text/css" href="js/plugins/scroll/jquery.mCustomScrollbar.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <style type="text/css">
+        body{margin-top:20px;}
+
+.content-item {
+    padding:30px 0;
+    color: white;
+}
+
+.content-item.grey {
+    background-color:#F0F0F0;
+    padding:50px 0;
+    height:100%;
+    color: white;
+}
+
+.content-item h2 {
+    font-weight:700;
+    font-size:35px;
+    line-height:45px;
+    text-transform:uppercase;
+    margin:20px 0;
+}
+
+.content-item h3 {
+    font-weight:400;
+    font-size:20px;
+    color:#555555;
+    margin:10px 0 15px;
+    padding:0;
+}
+
+.content-headline {
+    height:1px;
+    text-align:center;
+    margin:20px 0 70px;
+}
+
+.content-headline h2 {
+    display:inline-block;
+    margin:-20px auto 0;
+    padding:0 20px;
+}
+
+.grey .content-headline h2 {
+    background-color:#F0F0F0;
+}
+
+.content-headline h3 {
+    font-size:14px;
+    color:#AAAAAA;
+    display:block;
+}
+
+
+#comments {
+    box-shadow: 0 -1px 6px 1px rgba(0,0,0,0.1);
+}
+
+#comments form {
+    margin-bottom:30px;
+}
+
+#comments .btn {
+    margin-top:7px;
+}
+
+#comments form fieldset {
+    clear:both;
+}
+
+#comments form textarea {
+    height:100px;
+}
+
+#comments .media {
+    border-top:1px dashed #DDDDDD;
+    padding:20px 0;
+    margin:0;
+}
+
+#comments .media > .pull-left {
+    margin-right:20px;
+}
+
+#comments .media img {
+    max-width:100px;
+}
+
+#comments .media h4 {
+    margin:0 0 10px;
+}
+
+#comments .media h4 span {
+    font-size:14px;
+    float:right;
+    color:#999999;
+}
+
+#comments .media p {
+    margin-bottom:15px;
+    text-align:justify;
+}
+
+#comments .media-detail {
+    margin:0;
+}
+
+#comments .media-detail li {
+    color:#AAAAAA;
+    font-size:12px;
+    padding-right: 10px;
+    font-weight:600;
+}
+
+#comments .media-detail a:hover {
+    text-decoration:underline;
+}
+
+#comments .media-detail li:last-child {
+    padding-right:0;
+}
+
+#comments .media-detail li i {
+    color:#666666;
+    font-size:15px;
+    margin-right:10px;
+}
+
+    </style>
     <!-- Favicon Link -->
       <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
 </head>
@@ -285,27 +415,29 @@
         </div>
         <!----Album Single Section Start---->
       
-           <div class="ms_album_single_wrapper ms_artist_single">
-            <div class="album_single_data">
-                <div class="album_single_img">
-                    <img src="images/prod.jpg" alt="" class="img-fluid">
+           <div class="ms_album_single_wrapper ms_artist_single" >
+            <div class="album_single_data" style="margin-top: -30px;">
+                <div class="album_single_img" style="margin-top: 30px;">
+                    <img src="images/prod.jpg" alt="" style=" height:140px; width: 100%" class="img-fluid">
                 </div>
-                <div class="album_single_text">
-                    <h2>Peter Something</h2>
-                    <p class="singer_name">Singer, New York</p>
-                    <div class="about_artist">
-                        Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br> reprehenderit in voluptate velit esse cillum dolor.  Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br> reprehenderit in voluptate velit esse cillum dolor
-                    </div>
-                    <div class="album_btn">
-                        <a href="#" class="ms_btn play_btn"><span class="play_all">Wallet: $3000</span><span class="pause_all"><img src="images/svg/pause_all.svg" alt="">Pause</span></a>
-                        <a href="#" class="ms_btn play_btn"><span class="play_all">Active Bids: 7</span><span class="pause_all"><img src="images/svg/pause_all.svg" alt="">Pause</span></a>
-                        <a href="#" class="ms_btn play_btn"><span class="play_all">All Tracks: 9</span><span class="pause_all"><img src="images/svg/pause_all.svg" alt="">Pause</span></a>
-                        <!-- <a href="#" class="ms_btn"><span class="play_all"><img src="images/svg/add_q.svg" alt="">Add To Queue</span></a> -->
-                    </div>
+                <div class="album_single_text" >
+                    <h2>Denis Menson</h2>
+                    <p class="singer_name"><strong><i class="icon-music"></i>&nbsp;&nbsp;30 tracks</strong></p>
+                    <p class="singer_name">
+                    <i class="fa fa-clock-o" style="color: white"></i>&nbsp;23 sept 2020
+                    </p>
+                    <!-- <p class="singer_name">October 7 - October 17. Buy 1 Get 9 Free . Add 10 beats with same license to cart to activate the deal.</p><br> -->
+                    <p class="singer_name">
+                        <i class="icon-heart-empty"></i>&nbsp; 2.1k &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="icon-user"></i>&nbsp; 86 followers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="icon-comments-alt"></i>&nbsp; 88 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="icon-upload-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="icon-plus"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="icon-download"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    </p>
                 </div>
-                <div class="album_more_optn ms_more_icon">
-                   
-                </div>
+                <div class="album_more_optn ms_more_icon" >
+                 </div>
                 <ul class="more_option">
                     <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
                     <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
@@ -315,108 +447,415 @@
                 </ul>
             </div>
             <br>
-            <div class="col-lg-3 col-md-3"></div>
-            <div class="col-lg-12 col-md-12">
-                <div class="ms_heading">
-                    <h1>Transaction History</h1>
+                                    <!---Producers--->
+<div class="ms_weekly_wrapper ms_free_music">
+                <div class="ms_weekly_inner">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="ms_heading">
+                                <h1>Track List</h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 padding_right40">
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/misc.png" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/misc.png" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/misc.png" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/misc.png" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/misc.png" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 padding_right40">
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12">
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/weekly/song1.jpg" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                            <div class="ms_divider"></div>
+                            <div class="ms_weekly_box">
+                                <div class="weekly_left">
+                                    <div class="w_top_song">
+                                        <div class="w_tp_song_img">
+                                            <img src="images/misc.png" alt="">
+                                            <div class="ms_song_overlay">
+                                            </div>
+                                            <div class="ms_play_icon">
+                                                <img src="images/svg/play.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="w_tp_song_name">
+                                            <h3><a href="#">Until I Met You</a></h3>
+                                            <p>Ava Cornish</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="weekly_right">
+                                    <span class="w_song_time">5:10</span>
+                                    
+                                    <span class="w_song_dwnload">
+                                        <i class="ms_icon1 dwnload_icon"></i>
+                                    </span>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                 <!----Song List---->
-            <div class="album_inner_list">
-                <div class="album_list_wrapper">
-                    <ul class="album_list_name">
-                        <li>#</li>
-                        <li>Song Title</li>
-                        <li>Artist</li>
-                        <li class="text-center">Duration</li>
-                        <li class="text-center">Add To Favourites</li>
-                        <li class="text-center">More</li>
-                    </ul>
-                    <ul>
-                        <li><a href="#"><span class="play_no">01</span><span class="play_hover"></span></a></li>
-                        <li><a href="#">Bloodlust</a></li>
-                        <li><a href="#">Ava Cornish &amp; Brian Hill</a></li>
-                        <li class="text-center"><a href="#">5:26</a></li>
-                        <li class="text-center"><a href="#"><span class="ms_icon1 ms_fav_icon"></span></a></li>
-                        <li class="text-center ms_more_icon"><a href="javascript:;"><span class="ms_icon1 ms_active_icon"></span></a>
-                            <ul class="more_option">
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li><a href="#"><span class="play_no">02</span><span class="play_hover"></span></a></li>
-                        <li><a href="#">Desired Games</a></li>
-                        <li><a href="#">Ava Cornish &amp; Brian Hill</a></li>
-                        <li class="text-center"><a href="#">5:26</a></li>
-                        <li class="text-center"><a href="#"><span class="ms_icon1 ms_fav_icon"></span></a></li>
-                        <li class="text-center ms_more_icon"><a href="javascript:;"><span class="ms_icon1 ms_active_icon"></span></a>
-                            <ul class="more_option">
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li><a href="#"><span class="play_no">03</span><span class="play_hover"></span></a></li>
-                        <li><a href="#">Until I Met You</a></li>
-                        <li><a href="#">Ava Cornish &amp; Brian Hill</a></li>
-                        <li class="text-center"><a href="#">5:26</a></li>
-                        <li class="text-center"><a href="#"><span class="ms_icon1 ms_fav_icon"></span></a></li>
-                        <li class="text-center ms_more_icon"><a href="javascript:;"><span class="ms_icon1 ms_active_icon"></span></a>
-                            <ul class="more_option">
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="play_active_song">
-                        <li><a href="#"><span class="play_no">04</span><span class="play_hover"></span></a></li>
-                        <li><a href="#">Dark Alley Acoustic</a></li>
-                        <li><a href="#">Ava Cornish &amp; Brian Hill</a></li>
-                        <li class="text-center"><a href="#">5:26</a></li>
-                        <li class="text-center"><a href="#"><span class="ms_icon1 ms_fav_icon"></span></a></li>
-                        <li class="text-center ms_more_icon"><a href="javascript:;"><span class="ms_icon1 ms_active_icon"></span></a>
-                            <ul class="more_option">
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li><a href="#"><span class="play_no">05</span><span class="play_hover"></span></a></li>
-                        <li><a href="#">Cloud nine</a></li>
-                        <li><a href="#">Ava Cornish &amp; Brian Hill</a></li>
-                        <li class="text-center"><a href="#">5:26</a></li>
-                        <li class="text-center"><a href="#"><span class="ms_icon1 ms_fav_icon"></span></a></li>
-                        <li class="text-center ms_more_icon"><a href="javascript:;"><span class="ms_icon1 ms_active_icon"></span></a>
-                            <ul class="more_option">
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
-                                <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="ms_view_more padder_bottom20">
-                <a href="#" class="ms_btn">view more</a>
+                <div class="ms_view_more padder_bottom20">
+            <a href="#" class="ms_btn">view more</a>
             </div>
             </div>
+            <br><br>
            
         </div>
         <!----Footer Start---->
